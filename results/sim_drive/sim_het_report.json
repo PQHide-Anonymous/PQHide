@@ -1,0 +1,52 @@
+{
+ "windows_used": 60,
+ "baseline": 20,
+ "scheme": 40,
+ "label": "SIMULATED behaviour on a real cloud API; not real user activity",
+ "features": {
+  "distinct_files": {
+   "auc": 0.299375,
+   "auc_ci95": [
+    0.153625,
+    0.42939062499999997
+   ],
+   "advantage_best_threshold": 0.42500000000000004,
+   "mean_baseline": 94.55,
+   "mean_scheme": 81.225
+  },
+  "edits_per_file": {
+   "auc": 0.353125,
+   "auc_ci95": [
+    0.20860937499999999,
+    0.5065312499999998
+   ],
+   "advantage_best_threshold": 0.32499999999999996,
+   "mean_baseline": 1.0712137810026152,
+   "mean_scheme": 1.0477897624014862
+  },
+  "hot_file_fraction": {
+   "auc": 0.0025,
+   "auc_ci95": [
+    0.0,
+    0.01125
+   ],
+   "advantage_best_threshold": 0.95,
+   "mean_baseline": 0.4223341910756922,
+   "mean_scheme": 0.24301371606833705
+  },
+  "jaccard_with_previous": {
+   "auc": 0.29,
+   "auc_ci95": [
+    0.14746874999999998,
+    0.4475625
+   ],
+   "advantage_best_threshold": 0.375,
+   "mean_baseline": 0.2871652114058687,
+   "mean_scheme": 0.2256713251543654
+  }
+ },
+ "lda_cv": {
+  "auc": 0.9625,
+  "advantage_best_threshold": 0.8250000000000002
+ }
+}

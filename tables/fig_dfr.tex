@@ -1,0 +1,8 @@
+\begin{tikzpicture}
+\begin{semilogyaxis}[pqaxis, xlabel={total error weight $|\mathbf e|$}, ylabel={failure rate / 95\% upper bound}, ymin=2e-4, ymax=1.2]
+\addplot[only marks, mark=*] coordinates {(151,0.00050) (152,0.00025) (153,0.00400) (154,0.00850) (155,0.02725) (156,0.05633) (162,0.72300)};
+\addplot[only marks, mark=o] coordinates {(100,0.00050) (110,0.00050) (120,0.00050) (128,0.00050) (134,0.00050) (138,0.00050) (142,0.00050) (146,0.00050) (150,0.00050)};
+\draw[dashed] (axis cs:134,2e-4) -- (axis cs:134,1.2);
+\legend{observed failures, 95\% bound (0 failures)}
+\end{semilogyaxis}
+\end{tikzpicture}

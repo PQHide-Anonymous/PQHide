@@ -1,0 +1,28 @@
+{
+ "original_candidate_test": {
+  "trials": 300,
+  "weight_true_candidate": [
+   134,
+   134
+  ],
+  "weight_wrong_candidate_mean": 12319.953333333333,
+  "threshold_t": 134,
+  "accept_true": 1.0,
+  "accept_wrong": 0.0,
+  "allzero_message_weight_of_y": [
+   134,
+   134
+  ]
+ },
+ "revised_payload_dependence": {
+  "samples_per_class": 3000,
+  "tx_bits": 14499,
+  "mean_weight_zero": 7247.655,
+  "mean_weight_random": 7249.164333333333,
+  "expected_weight": 7249.5,
+  "ks_weight_pvalue": 0.7789673425789795,
+  "bitbias_global_pvalue_zero_payload": 0.9713765366175762,
+  "per_column_pvalues_uniformity_ks": 0.5331376238618563,
+  "n_columns_tested": 2072
+ }
+}

@@ -1,0 +1,14 @@
+\begin{tabular}{llcccc}
+\toprule
+Timing & Order & AUC ($T{=}1$) & TPR@$10^{-3}$ ($T{=}1$) & AUC ($T{=}7$) & TPR@$10^{-3}$ ($T{=}7$)\\
+\midrule
+rate-limited stream & sorted & 1.000 & 1.000 & 1.000 & 1.000\\
+rate-limited stream & shuffled & 1.000 & 1.000 & 1.000 & 1.000\\
+\midrule
+diurnal marginal only & sorted & 1.000 & 1.000 & 1.000 & 1.000\\
+diurnal marginal only & shuffled & 1.000 & 1.000 & 1.000 & 1.000\\
+\midrule
+session-copy (natural timing) & sorted & 1.000 & 1.000 & 1.000 & 1.000\\
+session-copy (natural timing) & shuffled & 0.505 & 0.004 & 0.516 & 0.003\\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,10 @@
+session: S1 (simulation on the real API)
+debut: 2026-11-27T10:31:19 (local time, offset redacted for review)
+lieu: [redacted for review]
+connexion declaree: Wi-Fi
+fournisseur: [redacted for review]
+compte: gratuit
+RTT vers www.googleapis.com: median 249 ms, min 27, max 12472 (connexion TCP, 8/8 essais)
+python: 3.12.3 (CPython)
+systeme: Linux x86_64, 16 coeurs
+charge machine (1 min): 0.60

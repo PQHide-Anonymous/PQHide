@@ -1,0 +1,10 @@
+\begin{tabular}{lrcrr}
+\toprule
+Encryption layer & KEM ct (B) & Quantum-safe & Bits to convey for 1\,KiB & Windows ($K_{\min}{=}105$)\\
+\midrule
+RSA-2048-OAEP + AEAD & 256 & no & 10368 & 25\\
+X25519 ECIES + AEAD & 32 & no & 8576 & 21\\
+ML-KEM-768 + AEAD & 1088 & yes & 17024 & 38\\
+PQHide (QC-MDPC L1 syndrome + stream) & 1541 & yes & 20643 & 45\\
+\bottomrule
+\end{tabular}

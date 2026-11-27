@@ -1,0 +1,14 @@
+session: R1
+debut: 2026-11-25T00:15:47 (local time, offset redacted for review)
+lieu: [redacted for review]
+connexion declaree: Wi-Fi
+fournisseur: [redacted for review]
+compte: gratuit
+interfaces reseau detectees: docker0:filaire/autre:down, enp3s0:filaire/autre:down, wlp4s0:Wi-Fi:up
+RTT vers www.googleapis.com: median 33 ms, min 24, max 130 (connexion TCP, 8/8 essais)
+python: 3.12.3 (CPython)
+systeme: Linux 7.0.0-43-generic x86_64
+cpu: 16 coeurs
+script de mesure present: True; colonne error_classes dans le script: True
+charge machine (1 min): 0.80
+fin: (a completer a la main ou avec: python session_notes.py R1 --fin)

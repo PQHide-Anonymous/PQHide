@@ -1,0 +1,18 @@
+{
+ "L1": {
+  "keygen_peak_MiB": 1.5089969635009766,
+  "encode_peak_MiB": 2.4374847412109375,
+  "decode_peak_MiB": 2.8533382415771484
+ },
+ "L3": {
+  "keygen_peak_MiB": 2.785877227783203,
+  "encode_peak_MiB": 4.643762588500977,
+  "decode_peak_MiB": 5.468379020690918
+ },
+ "L5": {
+  "keygen_peak_MiB": 5.472583770751953,
+  "encode_peak_MiB": 9.237119674682617,
+  "decode_peak_MiB": 10.6062593460083
+ },
+ "process_peak_rss_MiB": 48.390625
+}

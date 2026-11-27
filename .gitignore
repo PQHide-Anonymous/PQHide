@@ -1,0 +1,7 @@
+credentials.json
+token*.json
+salt.txt
+edits.csv
+venv/
+__pycache__/
+*.pyc
